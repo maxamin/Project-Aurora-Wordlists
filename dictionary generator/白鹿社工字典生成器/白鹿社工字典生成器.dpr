@@ -1,0 +1,14 @@
+program 白鹿社工字典生成器;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
